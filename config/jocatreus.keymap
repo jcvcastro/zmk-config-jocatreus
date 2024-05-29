@@ -21,7 +21,7 @@
         default_layer {
             bindings = <
   &kp Q             &kp W            &kp E      &kp R      &kp T      &kp Y        &kp U      &kp I      &kp O    &lt 4 P                &lt 3 ENTER
-  &kp A             &kp S            &kp D      &kp F      &kp G      &kp H        &kp J      &kp K      &kp L    &kp SEMI               &mt LEFT_GUI ESC
+  &kp A             &kp S            &kp D      &kp F      &kp G      &kp H        &kp J      &kp K      &kp L    &kp SEMI               &mt LEFT_GUI TAB
   &mt LEFT_SHIFT A  &mt RIGHT_ALT X  &kp C      &kp V      &kp B      &kp N        &kp M      &kp COMMA  &kp DOT  &mt RIGHT_SHIFT SLASH  &lt 1 SPACE
   &mt LCTRL ESC     &kp CAPS         &kp SPACE  &kp SPACE  &kp SPACE  &lt 2 MINUS  &kp SPACE  &kp TILDE  &kp SQT  &mt RCTRL ENTER        &lt 4 NON_US_BACKSLASH
             >;
@@ -38,10 +38,10 @@
 
         raise_layer {
             bindings = <
-  &kp GRAVE  &none  &none  &none  &none  &kp FSLH   &kp N7  &kp N8     &kp N9   &kp BSPC      &kp C_VOL_UP
-  &none      &none  &none  &none  &none  &kp STAR   &kp N4  &kp N5     &kp N6   &kp MINUS     &trans
-  &none      &none  &none  &none  &none  &kp EQUAL  &kp N1  &kp N2     &kp N3   &kp LS(PLUS)  &kp C_VOL_DN
-  &none      &none  &none  &none  &none  &none      &kp N0  &kp COMMA  &kp DOT  &kp COMMA     &trans
+  &none  &none  &none  &none  &none  &kp FSLH   &kp N7  &kp N8     &kp N9   &kp BSPC      &kp C_VOL_UP
+  &none  &none  &none  &none  &none  &kp STAR   &kp N4  &kp N5     &kp N6   &kp MINUS     &trans
+  &none  &none  &none  &none  &none  &kp EQUAL  &kp N1  &kp N2     &kp N3   &kp LS(PLUS)  &kp C_VOL_DN
+  &none  &none  &none  &none  &none  &none      &kp N0  &kp COMMA  &kp DOT  &kp COMMA     &trans
             >;
         };
 
