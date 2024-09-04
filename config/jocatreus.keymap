@@ -69,7 +69,7 @@
   &kp P     &kp O    &kp I      &kp U   &kp Y   &trans  &trans  &trans  &trans  &trans  &trans
   &kp SEMI  &kp L    &kp K      &kp J   &kp H   &trans  &trans  &trans  &trans  &trans  &trans
   &kp FSLH  &kp DOT  &kp COMMA  &kp M   &kp N   &trans  &trans  &trans  &trans  &trans  &trans
-  &trans    &trans   &trans     &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+  &mo 4     &trans   &trans     &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
