@@ -15,7 +15,10 @@
 #define RSE 2
 #define FNC 3
 
-&mt { flavor = "balanced"; };
+&mt {
+    flavor = "balanced";
+    quick-tap-ms = <200>;
+};
 
 &lt {
     flavor = "balanced";
