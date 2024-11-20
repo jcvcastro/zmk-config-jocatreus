@@ -70,10 +70,10 @@
 
         numerosEsq {
             bindings = <
-&kp N1           &kp N2  &kp N3  &kp N4  &kp N5  &kt C_VOLUME_UP  &none  &none  &none  &none  &none
-&kp N6           &kp N7  &kp N8  &kp N9  &kp N0  &kp C_VOL_DN     &none  &none  &none  &none  &kp LEFT_GUI
-&kp LEFT_SHIFT   &none   &none   &none   &none   &none            &none  &none  &none  &none  &kp LGUI
-&mt LGUI ESCAPE  &none   &none   &none   &none   &none            &none  &none  &none  &none  &none
+&kp N1           &kp N2  &kp N3  &kp N4  &kp N5  &kt C_VOLUME_UP  &kp C_BRIGHTNESS_INC  &none  &none  &none  &none
+&kp N6           &kp N7  &kp N8  &kp N9  &kp N0  &kp C_VOL_DN     &kp C_BRIGHTNESS_DEC  &none  &none  &none  &kp LEFT_GUI
+&kp LEFT_SHIFT   &none   &none   &none   &none   &none            &none                 &none  &none  &none  &kp LGUI
+&mt LGUI ESCAPE  &none   &none   &none   &none   &none            &none                 &none  &none  &none  &none
             >;
         };
 
