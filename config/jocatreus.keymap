@@ -19,7 +19,6 @@
 &mt {
     flavor = "balanced";
     quick-tap-ms = <200>;
-    hold-while-undecided;
 };
 
 &lt {
@@ -83,6 +82,15 @@
 &kp SEMI  &kp L    &kp K      &kp J   &kp H   &kt K_VOLUME_DOWN  &trans  &trans  &trans  &trans  &trans
 &kp FSLH  &kp DOT  &kp COMMA  &kp M   &kp N   &trans             &trans  &trans  &trans  &trans  &trans
 &mo 4     &trans   &trans     &trans  &trans  &trans             &trans  &trans  &trans  &trans  &trans
+            >;
+        };
+
+        layer_6 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
