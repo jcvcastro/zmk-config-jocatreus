@@ -8,7 +8,6 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/ext_power.h>
 #include <dt-bindings/zmk/keys.h>
-#include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/outputs.h>
 
 #define DEF 0
@@ -98,7 +97,7 @@
 
         numerosEsq {
             bindings = <
-&kp N1           &kp N2  &kp N3  &kp N4  &kp N5  &kt K_VOLUME_UP    &kp C_BRIGHTNESS_INC  &none  &none  &none  &none
+&kp N1           &kp N2  &kp N3  &kp N4  &kp N5  &kp K_VOLUME_UP    &kp C_BRIGHTNESS_INC  &none  &none  &none  &none
 &kp N6           &kp N7  &kp N8  &kp N9  &kp N0  &kp K_VOLUME_DOWN  &kp C_BRIGHTNESS_DEC  &none  &none  &none  &kp LEFT_GUI
 &kp LEFT_SHIFT   &none   &none   &none   &none   &none              &none                 &none  &none  &none  &kp LGUI
 &mt LGUI ESCAPE  &none   &none   &none   &none   &none              &none                 &none  &none  &none  &none
@@ -108,7 +107,7 @@
         Invertido {
             bindings = <
 &kp P     &kp O    &kp I      &kp U   &kp Y   &kp K_VOLUME_UP    &trans  &trans  &trans  &trans  &trans
-&kp SEMI  &kp L    &kp K      &kp J   &kp H   &kt K_VOLUME_DOWN  &trans  &trans  &trans  &trans  &trans
+&kp SEMI  &kp L    &kp K      &kp J   &kp H   &kp K_VOLUME_DOWN  &trans  &trans  &trans  &trans  &trans
 &kp FSLH  &kp DOT  &kp COMMA  &kp M   &kp N   &trans             &trans  &trans  &trans  &trans  &trans
 &mo 4     &trans   &trans     &trans  &trans  &trans             &trans  &trans  &trans  &trans  &trans
             >;
